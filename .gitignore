@@ -28,3 +28,8 @@ pnpm-lock.yaml
 *.sw?
 
 .gitmessage
+
+# firebase
+.firebase/
+.firebaserc
+firebase.json
