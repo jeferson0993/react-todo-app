@@ -4,10 +4,8 @@ import reactLogo from "./assets/react.svg";
 import { Todo } from "./interfaces/todo";
 
 const TodoAppComponent = () => {
-  const initialTodosState: Todo[] = [];
-  const initialInputState: string = "";
-  const [todos, setTodos] = useState(initialTodosState);
-  const [inputValue, setInputValue] = useState(initialInputState);
+  const [todos, setTodos] = useState<Todo[]>([]);
+  const [inputValue, setInputValue] = useState<string>("");
 
   useEffect(() => {
     const todosFromLocalStorage = localStorage.getItem("todos");

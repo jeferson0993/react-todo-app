@@ -1,0 +1,35 @@
+{
+    "short_name": "React ToDo",
+    "name": "React ToDo PWA App",
+    "start_url": "https://react-todo-pwa-app.web.app/",
+    "scope": "/",
+    "description": "This project is a Progressive Web App (PWA) built using React and styled with Tailwind CSS. The app allows users to easily create, read, update and delete the tasks.",
+    "id": "https://react-todo-pwa-app.web.app/",
+    "author": "Jeferson Silva",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "display": "standalone",
+    "theme_color": "#2ec6fe",
+    "background_color": "#2EC6FE",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "icon512_rounded.png",
+            "type": "image/png"
+        }
+    ],
+    "dir": "auto",
+    "lang": "en-US",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "notifications"
+    ]
+}
