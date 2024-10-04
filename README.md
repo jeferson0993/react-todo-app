@@ -23,7 +23,7 @@
     <a href="https://github.com/jeferson0993/react-todo-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://react-todo-app.web.app/">View Demo</a>
+    <a href="https://react-todo-pwa-app.web.app/">View Demo</a>
     ·
     <a href="https://github.com/jeferson0993/react-todo-app/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
